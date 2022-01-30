@@ -1,11 +1,12 @@
 import React from 'react'
 import './styles.scss';
 
-type IconProps = {
+interface IProps {
   symbol: React.ReactNode;
+  color?: string;
 };
-const Icon = (props: IconProps) => {
-  return <span className="icon">{props.symbol}</span>;
+const Icon = ({ color, symbol }: IProps) => {
+  return <span className={`icon`} style={{color: color}}>{symbol}</span>;
 };
 
-export default Icon
+export default Icon;

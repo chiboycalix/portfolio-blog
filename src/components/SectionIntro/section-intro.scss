@@ -1,0 +1,29 @@
+/** @format */
+
+.section__intro--wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-top: 1.5rem;
+  .line {
+    flex-basis: 5%;
+    height: 0.3rem;
+    background: #2a9d8f;
+    margin-top: 2rem;
+  }
+  .bio{
+    flex: 1;
+    h2 {
+      flex: 1;
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 140%;
+      color: #dcdaf7;
+      width: 50%;
+      margin-bottom: 1rem;
+    }
+  }
+}

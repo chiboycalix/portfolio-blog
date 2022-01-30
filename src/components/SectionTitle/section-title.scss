@@ -1,0 +1,26 @@
+/** @format */
+.section-title-wrapper {
+  position: relative;
+  .section-number {
+    font-family: Libre Baskerville;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 140%;
+    color: #dcdaf7;
+    margin-left: 50px;
+    opacity: 0.3;
+  }
+  .section-title {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #2a9d8f;
+    text-transform: uppercase;
+  }
+}

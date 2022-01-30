@@ -14,10 +14,10 @@ const Header = () => {
             <a href="/">Projects</a>
           </li>
           <li>
-            <a href="/">Skillset</a>
+            <a href="/">Contact</a>
           </li>
           <li>
-            <a href="/">Contact</a>
+            <a href="/">Blog</a>
           </li>
           <li>
             <a href="/">Resume</a>

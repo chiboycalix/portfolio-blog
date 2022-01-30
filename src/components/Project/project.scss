@@ -1,0 +1,109 @@
+/** @format */
+
+.project__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .project__texts {
+    p.project__title {
+      font-family: Libre Baskerville;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 13px;
+      line-height: 150%;
+      text-transform: capitalize;
+      color: #2a9d8f;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      margin: 8px 0px;
+    }
+    h2.project__name {
+      font-family: Libre Baskerville;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 28px;
+      line-height: 150%;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      margin: 16px 0px;
+      color: #dcdaf7;
+    }
+    p.project__description {
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 150%;
+      color: #9b99af;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+      margin: 16px 0px;
+      width: 393px;
+    }
+    .project__stacks {
+      margin-bottom: 50px;
+      span {
+        width: 155px;
+        height: 20px;
+        font-family: Work Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 150%;
+        color: #9b99af;
+        text-transform: uppercase;
+      }
+    }
+
+    .project__Link--wrapper{
+      position: relative;
+     a {
+        width: 97px;
+        height: 24px;
+        left: 4px;
+        top: 371px;
+        font-family: Work Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        color: #ffffff;
+        
+      }
+      a::before{
+          content: "";
+          position: absolute;
+          bottom: -7px;
+          left: 0;
+          background: #2A9D8F;
+          width: 22%;
+          height: 4px;
+        }
+      svg{
+        transform: translate(0, 4px);
+        margin-left: 10px;
+      }
+    }
+  }
+  .project__img {
+    width: 640px;
+    height: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(25, 35, 40, 0.67);
+    border-radius: 8px;
+    img{
+      object-fit: contain;
+
+    }
+  }
+}
+.row__reverse {
+  flex-direction: row-reverse;
+}
