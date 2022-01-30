@@ -1,0 +1,15 @@
+.about__me{
+  background-color: #ffffff;
+  height: 80rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .about__me__message{
+    flex-basis: 60%;
+  }
+  .empty__section{
+    flex: 1;
+    background: #264653;
+    height: 100%;
+  }
+}

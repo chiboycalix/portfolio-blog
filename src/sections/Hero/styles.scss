@@ -1,0 +1,97 @@
+.hero{
+  padding: 0 8rem;
+
+  .hero__content{
+    margin: 10rem auto 0rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .greeting__section{
+      color: #FFFFFF;
+      h1{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 64px;
+        line-height: 150%;
+        font-family: 'Libre Baskerville', serif;
+      }
+      .intro__section{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 2rem;
+        margin-top: 1.5rem;
+
+        .line{
+          flex-basis: 5%;
+          height: .3rem;
+          background: #2A9D8F;
+          margin-top: 2rem;
+        }
+        .bio__message{
+          flex: 1;
+
+          h2{
+            font-family: Work Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 140%;
+            color: #DCDAF7;
+            width: 50%;
+            margin-bottom: 1rem;
+          }
+          p{
+            font-family: Work Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 140%;
+            color: #9B99AF;
+            width: 53%;
+            a{
+              color: #2A9D8F;
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+
+      .social__icons{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: 15rem;
+      }
+
+      .hero__footer__section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 5rem;
+        width: 16%;
+
+        .line{
+          height: 20rem;
+          background: #2A9D8F;
+          width: .2rem;
+          margin-left: 1rem;
+        }
+        p{
+          font-family: Work Sans;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 140%;
+          color: #FFFFFF;
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+        }
+      }
+    }
+  }
+
+}
